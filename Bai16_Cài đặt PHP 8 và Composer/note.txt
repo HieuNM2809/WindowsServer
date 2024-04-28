@@ -1,0 +1,2 @@
+1. Cài composer
+2. Cài Xampp
