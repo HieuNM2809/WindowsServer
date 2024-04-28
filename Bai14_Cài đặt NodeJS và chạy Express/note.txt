@@ -1,0 +1,2 @@
+1. Cài NodeJS
+2. node app.js -watch

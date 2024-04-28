@@ -1,0 +1,513 @@
+﻿# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+# Added by Docker Desktop
+192.168.1.10 host.docker.internal
+192.168.1.10 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1 localhost
+#	::1 localhost
+
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1 localhost
+::1 localhost
+
+#Start custom
+127.0.0.1 localhost
+#::1 localhost
+
+127.0.0.1 localhost
+
+127.0.0.1 dulich.local
+127.0.0.1 banhang.local
+127.0.0.1 testerah.local
+
+# ::1 localhost
+127.0.0.1 cem.local
+127.0.0.1 survey-viet.local
+127.0.0.1 news.local
+127.0.0.1 cem-excel.local
+127.0.0.1 survey.local
+127.0.0.1 cem-shot.local
+127.0.0.1 omniagent.local
+127.0.0.1 omniagent-api.local
+127.0.0.1 mo-cronjob1.local
+
+127.0.0.1 test.local
+127.0.0.1 agentmap.local
+
+127.0.0.1 test123.local
+127.0.0.1 hmtintuc.com
+
+#End custom
+
+72.20.23.90 dev-omniagent.fpt.net
+172.20.18.252 omniagent-stag.fpt.net
+#172.20.23.90 stg-omniagent.fpt.net
+172.27.62.32 adminerdev.isc.net
+118.70.7.143 stag-loyaltyapi.fpt.net
+118.70.7.143 loyaltyapi.fpt.net
+172.20.23.90 hi-inside.fpt.vn
+
+#118.69.135.206	fproject.fpt.vn
+
+118.69.190.193 api.cloud.fptdata.com
+118.69.190.193 api.id.fptdata.com
+118.69.190.193 api.payment.fptdata.com
+118.69.190.193 backend.cloud.fptdata.com
+118.69.190.193 cloud.fptdata.com
+118.69.190.193 mcloud.fptdata.com
+118.69.190.193 ftiid.fptdata.com
+118.69.190.193 payment.fptdata.com
+172.30.27.7 account.fpt.net
+172.30.27.7 partner.fpt.org
+172.30.27.7 inside.fpt.org
+172.30.27.7 mvc.inside.fpt.org
+172.30.27.7 login.fpt.org
+#172.20.23.15 dev.survey.fpt.vn
+#172.20.23.15 cem.fpt.vn
+172.20.17.10 cemcc.fpt.net
+172.20.17.32 cc.fpt.net
+172.20.17.10 customercare.fpt.net
+172.20.23.16 dev-inboundsales.fpt.vn
+172.20.23.127 mofti.fpt.vn
+172.20.23.90 mo2.fpt.vn
+172.20.23.90 mysql.fpt.vn
+#172.20.23.90 survey.fpt.vn
+
+172.20.23.10 mo2-dev.fpt.net
+172.20.23.90 dev.mo2.fpt.vn
+#172.20.23.10 mo2.fpt.net
+#172.20.23.90 mo2.fpt.net
+172.20.23.90 dev.fpt.vn
+172.20.23.90 dev.cms.fpt.vn
+172.20.23.90 dev.mysql.fpt.vn
+172.20.23.90 mysql.fpt.vn
+172.20.23.90 mysql-dev.mo2.fpt.vn
+
+172.20.17.11 parapi.fpt.vn
+#172.20.17.32 callcenterapi.fpt.vn #product
+#172.20.17.50 callcenterapi.fpt.vn #stag
+172.20.18.252 callcenterapi.fpt.vn #stag
+172.20.17.10 telesalesapi.fpt.vn
+172.20.17.32 telesalesapinew.fpt.vn
+172.20.17.10 systemapi.fpt.vn
+172.20.17.10 vasapi.fpt.vn
+172.20.17.10 listindexreasonsf.fpt.net
+
+172.20.23.53 fbox-es-api.fptplay.net.vn
+118.69.241.32 acsmiddle.fpt.vn
+118.69.241.4 wsivoice.fpt.net
+210.245.126.149 fixphone.fpt.net
+172.20.23.127 socket.mo2.fpt.vn
+172.20.23.10 socket.mo2.fpt.net
+
+172.20.17.32 parapiora.fpt.vn
+#172.20.17.50 parapiora.fpt.vn
+#172.20.18.252 parapiora.fpt.vn
+#172.20.17.50 stagparapiora.fpt.vn
+#172.20.17.50 parapiora.fpt.vn
+#172.20.17.50 apimobipay.fpt.vn
+172.20.17.10 apimobipay.fpt.vn
+172.20.17.32 swapmoapi.fpt.vn
+172.20.17.32 bulkmail.isc.fpt.net
+172.20.17.10 apiiptv.fpt.vn
+
+172.20.17.32 apiiptv.fpt.vn
+
+172.30.27.7 apiiptv.fpt.org
+#172.20.17.50 apiiptvtag.fpt.vn
+172.20.18.252 apiiptvtag.fpt.vn
+#118.69.135.230 web.dev.fshare.vn
+172.27.11.142 bigdata-api.fpt.vn
+172.20.17.32 apionline.fpt.vn
+#172.20.17.50 apionline.fpt.vn
+172.20.17.32 hi-pri.fpt.vn
+
+#172.20.23.6 mo.fpt.vn
+172.20.23.6 staging.mo.fpt.vn
+172.20.17.250 gitlab.fpt.net
+#210.245.105.13 gitlab.fpt.net
+172.20.17.32 checklistswap.fpt.vn
+172.20.17.32 customercareservice.fpt.vn
+172.20.18.252 betacustomercareservice.fpt.vn
+118.69.135.118 kibana.fpt.vn
+172.20.17.50 testmobisalesservice.fpt.vn
+172.20.17.32 mobisalesservice.fpt.vn
+172.20.17.50 shortlink.fpt.vn
+172.20.23.6 call.mo.fpt.vn
+172.20.23.6 mo-staging.fpt.vn
+172.20.17.32 systemradiusapi.fpt.vn
+118.69.190.10 fproject.fpt.vn
+
+#172.20.17.50 telesalesapi.fpt.vn
+#172.20.17.50 systemapi.fpt.vn
+#172.20.17.50 vasapi.fpt.vn
+#172.20.17.50 testmobisalesservice.fpt.vn
+#172.20.17.50 shortlink.fpt.vn
+172.20.17.32 apicamera.fpt.net
+172.20.17.32 cameraapi.fpt.vn
+172.20.18.252 cameraapistag.fpt.vn
+
+#172.20.23.90 staging.cms.fpt.vn
+
+172.30.27.7 ivoiceapi.fpt.org
+172.20.17.50 ivoiceapistag.fpt.net
+172.20.17.32 ivoiceapi.fpt.net
+
+172.20.18.16 inside.fpt.net
+172.20.18.16 partner.fpt.net
+
+172.20.18.252	partner.fpt.net
+172.20.18.252	partner-stag.fpt.net
+
+172.20.18.16 partnerora.fpt.net
+172.20.18.16 mvc.inside.fpt.net
+
+172.20.17.13 TicketOpsApi.fpt.vn
+172.30.27.7 ticketopsapi.fpt.org
+172.20.17.50 apifglobalstag.fpt.vn
+172.20.17.32 apifglobal.fpt.vn
+
+172.20.23.90 noti.newmember.fpt.net
+
+172.20.23.90 mo2.mysql.prd
+
+172.20.23.90 staging.cms.fpt.vn
+172.20.23.90 mo-staging.fpt.net
+172.20.18.32 kibana.isc.net
+172.20.23.90 mo.redis.prd
+172.20.23.90 redis.mo.dev
+172.27.62.32 crapidev.fpt.vn
+172.20.23.90 iscdevice.fpt.net
+172.20.18.252 crapistag.fpt.vn
+172.20.17.32 crapi.fpt.vn
+172.20.17.22 sysinsideapi.fpt.vn
+172.20.17.22 bill.fpt.vn
+172.20.17.32 onlinereceipt.fpt.vn
+
+172.27.62.36 Kafka-1
+172.27.62.36 Kafka-2
+172.27.62.36 Kafka-3
+
+172.20.17.66 isc-kafka01
+172.20.17.67 isc-kafka02
+172.20.17.68 isc-kafka03
+
+172.20.23.90 mo.opennet.fpt.net
+172.20.18.252 adminer.isc.net
+#172.20.23.90 mo.opennet.com.kh
+172.20.17.32 osbftel.fpt.net
+#172.20.17.10 portapi.fpt.vn
+172.20.17.50 portapi.fpt.vn
+
+#172.20.17.32 mapapi.fpt.vn
+172.20.17.50 mapapi.fpt.vn
+172.20.23.90 stg.loyaltyapi.fpt.net
+118.69.59.232 smsworld.fpt.vn
+172.20.17.32 acs2.fpt.net
+172.20.18.252 acs2-stag.fpt.net
+
+#172.20.17.32 manapiora.fpt.vn
+172.20.17.50 manapiora.fpt.vn
+172.28.254.166 inside.foxpay.vn
+172.28.254.171 auth-local.foxpay.vn
+172.20.23.90 hi-modem.fpt.vn
+172.20.23.90 hi-modem-stag.fpt.vn
+
+172.20.18.252 mo-stag.opennet.com.kh
+118.69.59.222 sapi.fpt.vn
+172.20.17.32 systemmailapi.fpt.vn
+172.20.23.90 c
+
+172.20.23.90 survey-stag.fpt.vn
+172.20.23.90 sonarqube.fpt.net
+172.20.23.90 cpem.fpt.net
+118.69.59.232 fproject-isc.fpt.vn
+
+172.30.109.133 kibana.fptdata.com
+172.30.109.131 mofti.mysql.stg
+172.30.109.133 mofti.mysql.prd
+
+172.28.251.17 auth-test.foxpay.vn
+172.28.251.17 auth-dev.foxpay.vn
+172.28.251.17	auth-staging.foxpay.vn
+
+172.28.251.17	inside-test.foxpay.vn
+172.28.251.17	inside-dev.foxpay.vn
+172.28.251.17	inside-staging.foxpay.vn
+172.20.17.32 inside-api.fpt.net
+
+#172.20.17.32 manapi.fpt.vn #product
+#172.20.17.50 manapi.fpt.vn #stag1 Tra cuu thiet bi ton kho time out
+172.20.18.252 manapi.fpt.vn #stag2
+#172.20.17.50 manapiora.fpt.vn
+172.20.18.32 kibana.isc.net
+
+172.20.17.32 intapi.fpt.vn
+172.20.18.252 intapi-stag.fpt.vn
+
+172.20.18.252 fid-dev.fpt.net #dev
+172.20.18.252 fid-stag.fpt.net #stag
+172.20.23.90 fid.fpt.net #product
+172.20.23.90 sonarqube.fpt.net
+
+172.20.18.252 saleplatform-api-stag.fpt.net
+172.20.17.32 saleplatform-api.fpt.net
+
+172.20.18.252 evoucherapistag.fpt.vn #staging
+172.20.17.32 evoucherapi.fpt.vn #product
+
+172.20.18.252 omniagent-api-stag.fpt.net
+172.20.17.32 omniagent-api.fpt.net
+
+172.20.18.16 inside.fpt.net
+172.20.18.16 mvc.inside.fpt.net
+172.20.18.252 login-stag.fpt.net
+
+172.20.18.32 omniagent-test.fpt.net
+172.20.17.32 omniagent-api-test.fpt.net
+
+## agent-map-start
+118.70.7.143 map-mo-stag.fpt.net
+118.70.7.143 map-mo.fpt.net
+118.70.7.143 map-mo-dev.fpt.net
+172.20.18.252 adminer.isc.net
+172.27.233.216 services-stag.ftelcs.net
+## 172.27.233.217 services-call.fpt.net
+172.20.17.32 repo-isc.fpt.net
+172.20.23.90 vault-stag.isc.net
+
+#172.20.18.252 k8s-stag.isc.net
+172.20.18.32 k8s1.isc.net
+172.20.18.252 k8s1-stage.isc.net
+
+172.20.23.90 mo-staging.fpt.net
+127.0.0.1 hehe.local
+
+## agent-map-end
+
+172.20.18.252 omniagent-socket-dev.fpt.net
+## 172.20.18.252 omniagent-socket-stag.fpt.net
+## 172.20.18.252 omniagent-socket.fpt.net
+
+##inside
+172.20.18.16 mvc.inside.fpt.net
+172.20.18.16 inside.fpt.net
+172.20.18.252 login-stag.fpt.net
+
+# 172.27.62.32 inside-api-dev.fpt.net
+172.20.18.252 inside-api-stag.fpt.net
+# BEGIN section for OpenVPN Client SSL sites
+127.94.0.1	client.openvpn.net
+127.94.0.2	openvpn-client.csocvpn.fpt.net
+# END section for OpenVPN Client SSL sites
+
+0.0.0.0 account.jetbrains.com
+0.0.0.0 www.jetbrains.com
+0.0.0.0 www-weighted.jetbrains.com
+
+127.0.0.1 auth.local
+
+172.27.62.36 kafka-queue-dev-1
+172.27.62.36 kafka-queue-dev-2
+172.27.62.36 kafka-queue-dev-3
+
+104.16.170.253 login.docker.com
+118.69.59.232 myisc.fpt.vn
+
+172.20.18.252 siem.fpt.net
+
+# Added by Docker Desktop
+172.27.9.226 host.docker.internal
+172.27.9.226 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+
+mofti.fptdata.com #product
+mofti-staging.fptdata.com #staging
+mail-fsoft.fpt.net 42.119.20.135:587::1 localhost
+::1 localhost
+
+172.20.18.32 k8s1.isc.net
+
+172.20.23.90	survey-stag.fpt.vn
+172.20.23.90	redis.cem.prd
+
+## hosts by a Huy
+
+1.53.254.104	doc-csat.bi
+1.53.254.104	dashboard-api-stag.mypt.vn
+
+118.69.59.231	khachhangthanthiet-stag.fpt.vn
+
+118.70.7.143	cem-stag.fpt.vn
+118.70.7.143	cem-excel-stag.fpt.net
+
+127.0.0.1	cem-opennet.local
+127.0.0.1	survey-opennet.local
+127.0.0.1	phpmyadmin.local
+127.0.0.1	redis
+127.0.0.1	mysql
+127.0.0.1	s4s.local
+
+172.20.17.10	ws-telesales.fpt.vn
+172.20.17.10	telesalesapi.fpt.vn
+172.20.17.10	customercare.fpt.net
+172.20.17.10	callcenterapi.fpt.vn
+172.20.17.10	store.fpt.net
+172.20.17.10	cc.fpt.net
+#172.20.17.10	systemapi.fpt.vn
+
+172.20.17.11	callcenterapi.fpt.vn
+172.20.17.11	parapi.fpt.vn
+
+172.20.17.12	mobiqcora.fpt.vn
+
+172.20.17.32	customercarestag.fpt.net
+172.20.17.32	hi-pri.fpt.vn
+172.20.17.32	callcenterapi.fpt.vn
+172.20.17.32	accountotp.fpt.net
+172.20.17.32	account.fpt.net
+172.20.17.32	customercareservice.fpt.vn
+172.20.17.32	parcamapi.fpt.vn
+172.20.17.32	bulkmail.isc.fpt.net
+#172.20.17.32	parapiora.fpt.vn
+172.20.17.32	cemcc.fpt.net
+172.20.17.32	fsmapi.fpt.vn
+172.20.17.32	cameraapi.fpt.vn
+172.20.17.32	apiiptv.fpt.vn
+172.20.17.32	manapiora.fpt.vn
+172.20.17.32	omniagent-api.fpt.net
+172.20.17.32	saleplatform-api.fpt.net
+
+#172.20.17.32	customercareservice.fpt.vn
+
+#172.20.17.50	systemapitest.fpt.vn
+172.20.17.50	betacustomercareservice.fpt.vn
+#172.20.17.50	apiiptvtag.fpt.vn
+172.20.17.50	manapiora.fpt.vn
+
+172.20.18.32	fsm.fpt.vn
+172.20.18.32	fsmsocket.fpt.vn
+172.20.18.32	kibana.isc.net
+
+172.20.18.252	adminer.isc.net
+#172.20.18.252	cem-excel-stag.fpt.net
+172.20.18.252	s4s-dev.fpt.net
+172.20.18.252	s4s-stag.fpt.net
+172.20.18.252	inside-api-dev.opennet.com.kh
+172.20.18.252	cameraapistag.fpt.vn
+#172.20.18.252	manapi.fpt.vn
+#172.20.18.252	manapiora.fpt.vn
+172.20.18.252	apiiptvtag.fpt.vn
+172.20.18.252	hrapistag.fpt.vn
+172.20.18.252	inside-api-dev.fpt.net
+172.20.18.252	inside-api-stag.fpt.net
+172.20.18.252	cssapi-stag.fpt.net
+172.20.18.252	saleplatform-api-stag.fpt.net
+172.20.18.252	stagparapiora.fpt.vn
+172.20.18.252	nextgenapi-stag.fpt.net
+172.20.18.252	nextgenapi-dev.fpt.net
+1.53.254.104 docapi.bi
+172.20.23.41	hi-api.fpt.vn
+1.53.254.104 dashboard-api.mypt.vn
+1.53.254.104 dashboard-api-stag.mypt.vn
+
+#172.20.23.90	cem-excel.fpt.net
+172.20.23.90	redis.cem.prd
+172.20.23.90	redis.cem.stg
+172.20.23.90	iscdevice.fpt.net
+#172.20.23.90	cem-stag.fpt.vn
+172.20.23.90	survey-stag.fpt.vn
+172.20.23.90	sonarqube.fpt.net
+172.20.23.90	hi-survey.fpt.vn
+172.20.18.252 tracing.fpt.net
+172.20.18.32 isc-rancher.fpt.net
+172.20.23.90 redis.cem.prd
+172.20.18.252 cem-kafka-stag.fpt.net
+
+172.27.233.216	services-stag.ftelcs.net
+
+# Added by Docker Desktop
+192.168.1.6 host.docker.internal
+192.168.1.6 gateway.docker.internal
+# To allow the same kube context to work on the host and the container:
+127.0.0.1 kubernetes.docker.internal
+# End of section
+# BEGIN section for OpenVPN Client SSL sites
+127.94.0.1	client.openvpn.net
+127.94.0.2	openvpn-client.csocsgvpn.fpt.net
+# END section for OpenVPN Client SSL sites
+
+172.20.23.90 redis.cem.stg
+
+#1.55.119.104 dev.fpt.vn
+172.20.18.252 fptvn-api-dev.fpt.net
+
+172.20.18.252 nextgenapi-dev.fpt.net #dev
+172.20.18.252 nextgenapi-stag.fpt.net #stag
+172.20.17.32 nextgenapi.fpt.net #production
+
+172.20.17.32 crapi.fpt.vn
+172.20.18.252 crapistag.fpt.vn
+
